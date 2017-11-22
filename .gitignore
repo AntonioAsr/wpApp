@@ -28,7 +28,7 @@
 
 # ignore everything in the "wp-content" directory, except:
 # mu-plugins, plugins, and themes directories
-!wp-content/*
+!wp-content/
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
@@ -38,7 +38,7 @@
 wp-content/mu-plugins/*
 wp-content/plugins/*
 wp-content/themes/*
-
+!wp-content/themes/galaxyPicard
 # ignore all files starting with . or ~
 .*
 ~*
